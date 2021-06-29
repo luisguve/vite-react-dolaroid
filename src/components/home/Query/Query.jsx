@@ -66,7 +66,6 @@ const Presentation = (props) => {
 			credentials: "include"
 		}).then(async res => {
 			if (res.ok || res.status === 404) {
-				console.log("here")
 				const result = await res.json();
 				props.listReview(result);
 
