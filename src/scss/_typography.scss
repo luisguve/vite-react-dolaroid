@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+$black: #212121;
+$black_2: #3F3E44;
+$white: #FFFFFF;
+$white_2: #ECF0F8;
+$gray_1: #EEEEEE;
+$gray_2: #CACACA;
+$gray_3: #676767;
+$gray_4: #92929E;
+$red_1: #D81403;
+$red_2: #B90F00;
+$red_3: #EB8981;
+$red_hover: #920C00;
+$cyan_1: #EBF7F8;
+$cyan_2: #F4F8FF;
+$blue: #0B108C;
+$blue_1: #0081CE;
+$blue_hover: #005f96;
+
+$button_shadow: 0px 10px 15px -9px rgba(0,0,0,0.1);
+$card_shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+$card_shadow_small: 0px 5px 10px -3px rgba(0,0,0,0.1);
+$card_shadow_medium: 5px 5px 20px 0px #0000000D;
+
+
+@mixin h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $black_2;
+  @include mq($until: large) {
+    font-size: 21px;
+  }
+}
+@mixin h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: $black_2;
+  @include mq($until: large) {
+    font-size: 22px;
+  }
+}
+@mixin h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: $black_2;
+  @include mq($until: large) {
+    font-size: 18px;
+  }
+}
+@mixin h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: $black_2;
+}
+
+body > * {
+  color: $black;
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1 {
+  @include h1;
+}
+h2 {
+  @include h2;
+}
+h3 {
+  @include h3;
+}
+h4, h5, h6 {
+  @include h4;
+}
+
+.paragraph {
+  font-family: 'Cabin', sans-serif;
+  color: $gray_4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1px;
+
+  a {
+    text-decoration: underline;
+    transition: color .325s;
+    @include hover {
+      color: $red_1;
+    }
+  }
+}
+

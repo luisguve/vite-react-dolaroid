@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1c22abcec4fa18bbee9cd9dc7c6054bc8309da4699afc6f052564b7e787ffaad
-size 151
+﻿{
+	"learn": {
+		"heading": "Learn how to identify a counterfeit banknote",
+		"keyFeatures": "Security features",
+		"features": "Features"
+	}
+}

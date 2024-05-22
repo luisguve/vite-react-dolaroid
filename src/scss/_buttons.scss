@@ -1,0 +1,76 @@
+@mixin base_button {
+  font-family: 'Cabin', sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  padding: 7px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button--primary {
+  @include base_button;
+  background-color: $blue_1;
+  border-radius: 5px;
+  color: $white;
+  transition: background-color .325s, box-shadow .325s;
+  @include hover {
+    background-color: $blue_hover;
+    box-shadow: $button_shadow;
+  }
+}
+
+.button--secondary {
+  @include base_button;
+  background-color: transparent;
+  border-radius: 20px;
+  color: $red_1;
+  border: 1px solid $red_1;
+  transition: border-color .325s, color .325s;
+  @include hover {
+    color: $red_hover;
+    border-color: $red_hover;
+  }
+  &[disabled] {
+    color: $red_3;
+    border-color: $red_3;
+    cursor: not-allowed;
+    @include hover {
+      color: $red_3;
+      border-color: $red_3;
+    }
+  }
+}
+
+.button--tertiary {
+  @include base_button;
+  background-color: $white;
+  border-radius: 20px;
+  color: $black_2;
+  padding: 5px 30px;
+  transition: background-color .325s, box-shadow .325s, color .325s;
+  @include hover {
+    background-color: $red_1;
+    box-shadow: $button_shadow;
+    color: $white;
+  }
+  &.active {
+    background-color: $red_2;
+    box-shadow: $button_shadow;
+    color: $white;
+  }
+  &[disabled] {
+    background-color: $white;
+    cursor: not-allowed;
+    opacity: 0.5;
+    @include hover {
+      background-color: $white;
+      box-shadow: none;
+      color: $black_2;
+    }
+  }
+}

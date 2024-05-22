@@ -1,0 +1,12 @@
+.locale-switcher {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-end;
+  @include mq($until: tablet) {
+    justify-content: center;
+  }
+  &__input-select {
+    width: 200px;
+  }
+}

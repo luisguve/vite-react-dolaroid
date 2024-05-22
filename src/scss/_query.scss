@@ -1,0 +1,39 @@
+.query {
+  margin: 75px 0;
+  @include mq($until: tablet) {
+    margin: 40px 0;
+  }
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+  &__form-inputs {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    @include mq($until: tablet) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+  &__form-label {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    @include mq($until: tablet) {
+      flex-direction: column;
+      row-gap: 5px;
+      align-items: flex-start;
+    }
+  }
+  &__input-select {
+    width: 120px;
+  }
+}

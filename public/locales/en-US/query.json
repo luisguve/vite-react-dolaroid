@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:87400a912c2af821acef4694bbfc16b1337034975ef13e63bf0a6c75d9b4181a
-size 267
+﻿{
+	"query": {
+		"label": "query banknote",
+		"tip": "<strong>Tip</strong>: leave the serial number empty if you just want to see the security features",
+		"serialNumber": "serial number",
+		"value": "value",
+		"series": "series",
+		"submit": "search"
+	}
+}

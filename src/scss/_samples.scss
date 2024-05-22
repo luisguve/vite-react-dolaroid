@@ -1,0 +1,12 @@
+.samples {
+  margin: 75px 0;
+  @include mq($until: tablet) {
+    margin: 40px 0;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+}

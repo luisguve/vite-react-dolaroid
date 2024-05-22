@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ceb30a0145b5f65c4f0d00a61e7706b376c7db624375fc493669e02cbb5f927
-size 299
+{
+	"query": {
+		"label": "Consultar billete",
+		"value": "Denominación",
+		"series": "Serie",
+		"submit": "Consultar"
+	}
+}

@@ -1,0 +1,43 @@
+.features {
+  margin: 75px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 75px;
+  @include mq($until: tablet) {
+    margin: 40px 0;
+    row-gap: 30px;
+  }
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &__item {
+    display: flex;
+    column-gap: 50px;
+    align-items: flex-start;
+  }
+  &__feature-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex-grow: 100;
+  }
+  &__feature-samples {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 10px;
+    @include mq($until: tablet) {
+      width: 100%;
+    }
+  }
+}

@@ -1,3 +1,582 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2679a8f2fc12311eb31afd41919c7887d23468919f2e4be474368ac1f570d1d9
-size 20325
+{
+	"usd-10": {
+		"1929": {
+			"front": "notes/10/1929/front.webp",
+			"back": "notes/10/1929/back.webp",
+			"features": [
+				{
+					"label": "Sello negro",
+					"desc": "Hay un sello del Banco de la Reserva Federal en color negro, a la izquierda del retrato, con el nombre del Banco distribuidor de la Reserva Federal.",
+					"img": [
+						"notes/10/1929/ft-black-seal.webp"
+					]
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El traje del retrato está impreso con textura de relieve.",
+					"img": [
+						"notes/10/1929/ft-raised-printing.webp"
+					]
+				},
+				{
+					"label": "Papel",
+					"desc": "El material del papel está compuesto por un cuarto de lino y tres cuartos de algodón, y tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/1929/ft-paper.webp"
+					]
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "Hay un retrato del Secretario Alexander Hamilton en la cara del billete, y una viñeta del Edificio de Tesorería de los Estados Unidos en el reverso.",
+					"img": [
+						"notes/10/1929/ft-portrait.webp",
+						"notes/10/1929/ft-vignette.webp"
+					]
+				},
+				{
+					"label": "Sello verde",
+					"desc": "Hay un sello del Departamento del Tesoro de los Estados Unidos en verde, a la derecha del retrato.",
+					"img": [
+						"notes/10/1929/ft-treasury-seal.webp"
+					]
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está compuesto por una combinación de letras y números, y aparece dos veces en la cara del billete.",
+					"img": [
+						"notes/10/1929/ft-serial-numbers.webp"
+					]
+				}
+			],
+			"possibleDefects": [
+				{
+					"label": "Sello negro",
+					"desc": "El sello del Banco de la Reserva Federal no corresponde o no está en el lugar indicado",
+					"img": [
+						"notes/10/1929/ft-black-seal.webp"
+					],
+					"key": "ft-black-seal"
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El billete no tiene textura de relieve en el traje del retrato.",
+					"img": [
+						"notes/10/1929/ft-raised-printing.webp"
+					],
+					"key": "ft-raised-printing"
+				},
+				{
+					"label": "Papel",
+					"desc": "El papel no corresponde o no tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/1929/ft-paper.webp"
+					],
+					"key": "ft-paper"
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "El retrato en la cara del billete o la viñeta en el reverso no corresponden.",
+					"img": [
+						"notes/10/1929/ft-portrait.webp",
+						"notes/10/1929/ft-vignette.webp"
+					],
+					"key": "ft-portrait"
+				},
+				{
+					"label": "Sello verde",
+					"desc": "El sello del Departamento del Tesoro de los Estados Unidos no corresponde o no está en el lugar indicado.",
+					"img": [
+						"notes/10/1929/ft-treasury-seal.webp"
+					],
+					"key": "ft-treasury-seal"
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está mal impreso o no tiene el formato adecuado.",
+					"img": [
+						"notes/10/1929/ft-serial-numbers.webp"
+					],
+					"key": "ft-serial-numbers"
+				}
+			]
+		},
+		"1990": {
+			"front": "notes/10/1990/front.webp",
+			"back": "notes/10/1990/back.webp",
+			"keyFeatures": [
+				{
+					"label": "Hilo de seguridad",
+					"desc": "Observa el billete a contraluz, debería haber un hilo vertical incrustado, a la izquierda del sello del Banco de la Reserva Federal. El hilo está impreso con el texto \"USA TEN\", y es visible desde ambos lados del billete. El hilo se torna color naranja cuando se ilumina con una luz ultravioleta.",
+					"img": [
+						"notes/10/1990/ft-thread.webp"
+					]
+				},
+				{
+					"label": "Microtexto",
+					"desc": "Observa con una lupa el borde exterior del marco del retrato, debería tener el texto \"THE UNITED STATES OF AMERICA\" en letras muy pequeñas.",
+					"img": [
+						"notes/10/1990/ft-microprinting.webp"
+					]
+				}
+			],
+			"features": [
+				{
+					"label": "Sello negro",
+					"desc": "Hay un sello del Banco de la Reserva Federal en color negro, a la izquierda del retrato, con el nombre del Banco distribuidor de la Reserva Federal. La letra impresa debe coincidir con la primera letra del número de serial.",
+					"img": [
+						"notes/10/1990/ft-black-seal.webp"
+					]
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El traje del retrato está impreso con textura de relieve.",
+					"img": [
+						"notes/10/1990/ft-raised-printing.webp"
+					]
+				},
+				{
+					"label": "Papel",
+					"desc": "El material del papel está compuesto por un cuarto de lino y tres cuartos de algodón, y tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/1990/ft-paper.webp"
+					]
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "Hay un retrato del Secretario Alexander Hamilton en la cara del billete, y una viñeta del Edificio de Tesorería de los Estados Unidos en el reverso.",
+					"img": [
+						"notes/10/1990/ft-portrait.webp",
+						"notes/10/1990/ft-vignette.webp"
+					]
+				},
+				{
+					"label": "Sello verde",
+					"desc": "Hay un sello del Departamento del Tesoro de los Estados Unidos en verde, a la derecha del retrato.",
+					"img": [
+						"notes/10/1990/ft-treasury-seal.webp"
+					]
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está compuesto por una combinación única de 11 letras y números, y aparece dos veces en la cara del billete.",
+					"img": [
+						"notes/10/1990/ft-serial-numbers.webp"
+					]
+				}
+			],
+			"possibleDefects": [
+				{
+					"label": "Hilo de seguridad",
+					"desc": "El hilo no está incrustado, no tiene el formato adecuado o no se torna color naranja cuando se ilumina con una luz ultravioleta.",
+					"img": [
+						"notes/10/1990/ft-thread.webp"
+					],
+					"key": "ft-thread"
+				},
+				{
+					"label": "Microtexto",
+					"desc": "No está el microtexto \"THE UNITED STATES OF AMERICA\" en el borde exterior del marco del retrato, o está mal impreso.",
+					"img": [
+						"notes/10/1990/ft-microprinting.webp"
+					],
+					"key": "ft-microprinting"
+				},
+				{
+					"label": "Sello negro",
+					"desc": "El sello del Banco de la Reserva Federal no corresponde o no está en el lugar indicado",
+					"img": [
+						"notes/10/1990/ft-black-seal.webp"
+					],
+					"key": "ft-black-seal"
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El billete no tiene textura de relieve en el traje del retrato.",
+					"img": [
+						"notes/10/1990/ft-raised-printing.webp"
+					],
+					"key": "ft-raised-printing"
+				},
+				{
+					"label": "Papel",
+					"desc": "El papel no corresponde o no tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/1990/ft-paper.webp"
+					],
+					"key": "ft-paper"
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "El retrato en la cara del billete o la viñeta en el reverso no corresponden.",
+					"img": [
+						"notes/10/1990/ft-portrait.webp",
+						"notes/10/1990/ft-vignette.webp"
+					],
+					"key": "ft-portrait"
+				},
+				{
+					"label": "Sello verde",
+					"desc": "El sello del Departamento del Tesoro de los Estados Unidos no corresponde o no está en el lugar indicado.",
+					"img": [
+						"notes/10/1990/ft-treasury-seal.webp"
+					],
+					"key": "ft-treasury-seal"
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está mal impreso o no tiene el formato adecuado.",
+					"img": [
+						"notes/10/1990/ft-serial-numbers.webp"
+					],
+					"key": "ft-serial-numbers"
+				}
+			]
+		},
+		"2000": {
+			"front": "notes/10/2000/front.webp",
+			"back": "notes/10/2000/back.webp",
+			"keyFeatures": [
+				{
+					"label": "Hilo de seguridad",
+					"desc": "Observa el billete a contraluz, debería haber un hilo vertical incrustado, a la derecha del retrato. El hilo está impreso con el texto \"USA TEN\" y una pequeña bandera, y es visible desde ambos lados del billete. El hilo se torna color naranja cuando se ilumina con una luz ultravioleta.",
+					"img": [
+						"notes/10/2000/ft-thread.webp"
+					]
+				},
+				{
+					"label": "Marca de agua",
+					"desc": "Observa el billete a contraluz, debería haber una imagen del Secretario Alexander Hamilton en el espacio en blanco a la derecha del retrato, y es visible desde ambos lados del billete.",
+					"img": [
+						"notes/10/2000/ft-watermark.webp"
+					]
+				},
+				{
+					"label": "Tinta que cambia de color",
+					"desc": "Inclina el billete hacia adelante y hacia atrás y observa el número 10 en la esquina inferior derecha en la cara del billete, debería cambiar de un color verde a negro.",
+					"img": [
+						"notes/10/2000/ft-color-shifting-ink.webp"
+					]
+				}
+			],
+			"features": [
+				{
+					"label": "Sello negro",
+					"desc": "Hay un sello del Sistema de la Reserva Federal en negro, a la izquierda del retrato. Una letra y un número cerca del sello indican el Banco distribuidor de la Reserva Federal.",
+					"img": [
+						"notes/10/2000/ft-black-seal.webp"
+					]
+				},
+				{
+					"label": "Microtexto",
+					"desc": "Observa el billete con una lupa, debería tener los siguientes textos en letra muy pequeña y bien impresa:<ul><li>\"TEN\" repetido dentro del número 10 en la esquina inferior izquierda de la cara del billete.</li><li>\"THE UNITED STATES OF AMERICA\" arriba del nombre de Hamilton.</li></ul>",
+					"img": [
+						"notes/10/2000/ft-microprinting-1.webp",
+						"notes/10/2000/ft-microprinting-2.webp"
+					]
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El traje del retrato está impreso con textura de relieve.",
+					"img": [
+						"notes/10/2000/ft-raised-printing.webp"
+					]
+				},
+				{
+					"label": "Papel",
+					"desc": "El material del papel está compuesto por un cuarto de lino y tres cuartos de algodón, y tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/2000/ft-paper.webp"
+					]
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "Hay un retrato del Secretario Alexander Hamilton en la cara del billete, y una viñeta del Edificio de Tesorería de los Estados Unidos en el reverso.",
+					"img": [
+						"notes/10/2000/ft-portrait.webp"
+					]
+				},
+				{
+					"label": "Sello verde",
+					"desc": "Hay un sello del Departamento del Tesoro de los Estados Unidos en verde, a la derecha del retrato.",
+					"img": [
+						"notes/10/2000/ft-treasury-seal.webp"
+					]
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está compuesto por una combinación única de 11 letras y números, y aparece dos veces en la cara del billete.",
+					"img": [
+						"notes/10/2000/ft-serial-numbers.webp"
+					]
+				}
+			],
+			"possibleDefects": [
+				{
+					"label": "Hilo de seguridad",
+					"desc": "El hilo no está incrustado, no tiene el formato adecuado o no se torna color naranja cuando se ilumina con una luz ultravioleta.",
+					"img": [
+						"notes/10/2000/ft-thread.webp"
+					],
+					"key": "ft-thread"
+				},
+				{
+					"label": "Marca de agua",
+					"desc": "La marca de agua no está, no se ve desde ambos lados del billete o no coincide con el retrato.",
+					"img": [
+						"notes/10/2000/ft-watermark.webp"
+					],
+					"key": "ft-watermark"
+				},
+				{
+					"label": "Tinta que cambia de color",
+					"desc": "La tinta no cambia de verde a negro.",
+					"img": [
+						"notes/10/2000/ft-color-shifting-ink.webp"
+					],
+					"key": "ft-color-shifting-ink"
+				},
+				{
+					"label": "Sello negro",
+					"desc": "El sello del Sistema de la Reserva Federal no corresponde o no está en el lugar indicado",
+					"img": [
+						"notes/10/2000/ft-black-seal.webp"
+					],
+					"key": "ft-black-seal"
+				},
+				{
+					"label": "Microtexto",
+					"desc": "No está el microtexto \"TEN\" repetido dentro del número 10 en la esquina inferior izquierda de la cara del billete o el microtexto \"THE UNITED STATES OF AMERICA\" arriba del nombre de Hamilton o está mal impreso.",
+					"img": [
+						"notes/10/2000/ft-microprinting-1.webp",
+						"notes/10/2000/ft-microprinting-2.webp"
+					],
+					"key": "ft-microprinting"
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El billete no tiene textura de relieve en el traje del retrato.",
+					"img": [
+						"notes/10/2000/ft-raised-printing.webp"
+					],
+					"key": "ft-raised-printing"
+				},
+				{
+					"label": "Papel",
+					"desc": "El papel no corresponde o no tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/2000/ft-paper.webp"
+					],
+					"key": "ft-paper"
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "El retrato en la cara del billete o la viñeta en el reverso no corresponden.",
+					"img": [
+						"notes/10/2000/ft-portrait.webp"
+					],
+					"key": "ft-portrait"
+				},
+				{
+					"label": "Sello verde",
+					"desc": "El sello del Departamento del Tesoro de los Estados Unidos no corresponde o no está en el lugar indicado.",
+					"img": [
+						"notes/10/2000/ft-treasury-seal.webp"
+					],
+					"key": "ft-treasury-seal"
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está mal impreso o no tiene el formato adecuado.",
+					"img": [
+						"notes/10/2000/ft-serial-numbers.webp"
+					],
+					"key": "ft-serial-numbers"
+				}
+			]
+		},
+		"2006": {
+			"front": "notes/10/2006/front.webp",
+			"back": "notes/10/2006/back.webp",
+			"keyFeatures": [
+				{
+					"label": "Hilo de seguridad",
+					"desc": "Observa el billete a contraluz, debería haber un hilo vertical incrustado, a la derecha del retrato. El hilo está impreso con el texto \"USA TEN\" y una pequeña bandera, y es visible desde ambos lados del billete. El hilo se torna color naranja cuando se ilumina con una luz ultravioleta.",
+					"img": [
+						"notes/10/2006/ft-thread.webp"
+					]
+				},
+				{
+					"label": "Marca de agua",
+					"desc": "Observa el billete a contraluz, debería haber una imagen del Secretario Alexander Hamilton en el espacio en blanco a la derecha del retrato, y es visible desde ambos lados del billete.",
+					"img": [
+						"notes/10/2006/ft-watermark.webp"
+					]
+				},
+				{
+					"label": "Tinta que cambia de color",
+					"desc": "Inclina el billete hacia adelante y hacia atrás y observa el número 10 en la esquina inferior derecha en la cara del billete, debería cambiar de un color cobre a verde.",
+					"img": [
+						"notes/10/2006/ft-color-shifting-ink.webp"
+					]
+				}
+			],
+			"features": [
+				{
+					"label": "Sello negro",
+					"desc": "Hay un sello del Sistema de la Reserva Federal en negro, a la izquierda del retrato. Una letra y un número cerca del sello indica el Banco distribuidor de la Reserva Federal.",
+					"img": [
+						"notes/10/2006/ft-black-seal.webp"
+					]
+				},
+				{
+					"label": "Microtexto",
+					"desc": "Observa el billete con una lupa, debería tener los siguientes textos en letra muy pequeña y bien impresa:<ul><li>\"USA 10\" repetido en el borde de la antorcha a la izquierda del retrato.</li><li>\"THE UNITED STATES OF AMERICA\" y \"TEN DOLLARS USA\" arriba del nombre de Hamilton y en el interior de los bordes laterales de la cara del billete.</li></ul>",
+					"img": [
+						"notes/10/2006/ft-microprinting-1.webp",
+						"notes/10/2006/ft-microprinting-2.webp"
+					]
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El traje del retrato está impreso con textura de relieve.",
+					"img": [
+						"notes/10/2006/ft-raised-printing.webp"
+					]
+				},
+				{
+					"label": "Papel",
+					"desc": "El material del papel está compuesto por un cuarto de lino y tres cuartos de algodón, y tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/2006/ft-paper.webp"
+					]
+				},
+				{
+					"label": "Color",
+					"desc": "Tiene naranja, amarillo y rojo como colores de fondo en ambos lados del billete.",
+					"img": [
+						"notes/10/2006/ft-color.webp"
+					]
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "Hay un retrato del Secretario Alexander Hamilton en la cara del billete, y una viñeta del Edificio de Tesorería de los Estados Unidos en el reverso.",
+					"img": [
+						"notes/10/2006/ft-portrait.webp"
+					]
+				},
+				{
+					"label": "Símbolos en el fondo",
+					"desc": "A la izquierda del retrato del Secretario Hamilton tiene una imagen de la antorcha sostenida por la Estatua de la Libertad en color rojo. En el lado inferior derecho del retrato hay otra imagen de la antorcha más pequeña.",
+					"img": [
+						"notes/10/2006/ft-symbols-of-freedom.webp"
+					]
+				},
+				{
+					"label": "Sello verde",
+					"desc": "Hay un sello del Departamento del Tesoro de los Estados Unidos en verde, a la derecha del retrato.",
+					"img": [
+						"notes/10/2006/ft-treasury-seal.webp"
+					]
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está compuesto por una combinación única de 11 letras y números, y aparece dos veces en la cara del billete.",
+					"img": [
+						"notes/10/2006/ft-serial-numbers.webp"
+					]
+				}
+			],
+			"possibleDefects": [
+				{
+					"label": "Hilo de seguridad",
+					"desc": "El hilo no está incrustado, no tiene el formato adecuado o no se torna color naranja cuando se ilumina con una luz ultravioleta.",
+					"img": [
+						"notes/10/2006/ft-thread.webp"
+					],
+					"key": "ft-thread"
+				},
+				{
+					"label": "Marca de agua",
+					"desc": "La marca de agua no está, no se ve desde ambos lados del billete o no coincide con el retrato.",
+					"img": [
+						"notes/10/2006/ft-watermark.webp"
+					],
+					"key": "ft-watermark"
+				},
+				{
+					"label": "Tinta que cambia de color",
+					"desc": "La tinta no cambia de cobre a verde.",
+					"img": [
+						"notes/10/2006/ft-color-shifting-ink.webp"
+					],
+					"key": "ft-color-shifting-ink"
+				},
+				{
+					"label": "Sello negro",
+					"desc": "El sello del Sistema de la Reserva Federal no corresponde o no está en el lugar indicado.",
+					"img": [
+						"notes/10/2006/ft-black-seal.webp"
+					],
+					"key": "ft-black-seal"
+				},
+				{
+					"label": "Microtexto",
+					"desc": "No está alguno de los microtextos o están mal impresos.",
+					"img": [
+						"notes/10/2006/ft-microprinting-1.webp",
+						"notes/10/2006/ft-microprinting-2.webp"
+					],
+					"key": "ft-microprinting"
+				},
+				{
+					"label": "Impresión de relieve",
+					"desc": "El billete no tiene textura de relieve en el traje del retrato.",
+					"img": [
+						"notes/10/2006/ft-raised-printing.webp"
+					],
+					"key": "ft-raised-printing"
+				},
+				{
+					"label": "Papel",
+					"desc": "El papel no corresponde o no tiene pequeñas fibras azules y rojas dispersas en el billete.",
+					"img": [
+						"notes/10/2006/ft-paper.webp"
+					],
+					"key": "ft-paper"
+				},
+				{
+					"label": "Retrato y viñeta",
+					"desc": "El retrato en la cara del billete o la viñeta en el reverso no corresponden.",
+					"img": [
+						"notes/10/2006/ft-portrait.webp"
+					],
+					"key": "ft-portrait"
+				},
+				{
+					"label": "Símbolos en el fondo",
+					"desc": "Falta algún símbolo en el fondo o no está bien impreso.",
+					"img": [
+						"notes/10/2006/ft-symbols-of-freedom.webp"
+					],
+					"key": "ft-symbols-of-freedom"
+				},
+				{
+					"label": "Sello verde",
+					"desc": "El sello del Departamento del Tesoro de los Estados Unidos no corresponde o no está en el lugar indicado.",
+					"img": [
+						"notes/10/2006/ft-treasury-seal.webp"
+					],
+					"key": "ft-treasury-seal"
+				},
+				{
+					"label": "Número de serial",
+					"desc": "El número de serial está mal impreso o no tiene el formato adecuado.",
+					"img": [
+						"notes/10/2006/ft-serial-numbers.webp"
+					],
+					"key": "ft-serial-numbers"
+				}
+			]
+		}
+	}
+}
